@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments</title>
+<style>
+.comment-box {
+  width: 100%;
+  max-width: 500px;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+.comment-box h3 {
+  margin-bottom: 15px;
+  color: #333;
+}
+.input-group {
+  margin-bottom: 12px;
+}
+.input-group input, 
+.input-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.comment-box button {
+  background: #007bff;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.comment-box button:hover {
+  background: #0056b3;
+}
+
+</style>
+</head>
+<body>
+     
+    <div class="comment-box">
+
+  <form>
+    <div class="input-group">
+      <input type="text" placeholder="आपका नाम :(Your Name)" required>
+    </div>
+    <div class="input-group">
+      <textarea rows="4" placeholder="अपना कमेंट यहाँ लिखें :(Write your comment)..." required></textarea>
+    </div>
+    <button type="submit">Post Comment</button><br>
+    <label >Enter your location:</label>
+     <input type="radio" name="g">india
+     <input type="radio" name="g">other 
+<br>
+
+     <label > Date&Time :</label>
+    <input type="datetime-local"><br><br>
+  </form>
+</div>
+</body>
+</html>
